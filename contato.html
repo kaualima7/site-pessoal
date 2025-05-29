@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Coral+Pixels&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="topo"></div>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="item_padrao"><a href="index.html">Início</a> </li>
+                <li class="item_padrao"><a href="sobre.html">Sobre</a></li>
+                <li class="item_padrao"><a href="portfolio.html">Portfólio</a> </li>
+                <li class="item_ativo"><a href="contato.html">Contato</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section> <h1 class="tituloC">Entre em contato</h1></section>
+        <section class="formularios"> 
+            <form>
+                <fieldset> <legend>Informações pessoais</legend>
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" maxlength="50" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="exemplo@dominio.com" maxlength="50" required>
+                <br>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxx-xxxx" maxlength="20" required>
+                </fieldset>
+
+                <fieldset> <legend>Mensagem</legend>
+                    <input type="text" name="assunto" id="assunto" placeholder="Assunto" maxlength="50" required>
+                    <br>
+                    <textarea name="mensagem" id="mensagem" maxlength="500" rows="6" required placeholder="Escreva sua mensagem aqui"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+        <section class="redes">
+            <h2>Redes sociais</h2>
+                <div class="icones">
+                    <a href="https://github.com/kaualima7" target="_blank" rel="noopener noreferrer" >
+                    <img src="img/github.icone.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/kaua-lima-progm/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/linkedin.icone.png" alt="Linkedin">
+                    </a>
+                    <a href="https://www.instagram.com/kaua.lm7/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/insta.icone.png" alt="Instagram">
+                    </a>
+                    <a href="https://wa.me/5554981252244" target="_blank" rel="noopener noreferrer">
+                    <img src="img/wpp.icone.png" alt="WhatsApp">
+                    </a>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        Desenvolvido por Kauã Lima - 2025
+    </footer>
+    <a href="#topo" id="btnTopo" aria-label="Voltar ao topo">
+    <img src="img/setaS.svg" alt="setatopo">
+    </a>
+</body>
+</html>
